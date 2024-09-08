@@ -3,15 +3,15 @@
 This is an official starter Turborepo.
 
 ## Structure Projects
-
-mern-app/
-├── apps/
-│   ├── dashboard/    (Next.js for admin interface)
-│   ├── client/       (Next.js for user interface)
-│   └── express-api/  (Express API for back-end)
-├── package.json      (Monorepo config using npm workspaces)
-└── tsconfig.json     (Optional: shared TypeScript config)
-
+    ```
+    mern-app/
+    ├── apps/
+    │   ├── dashboard/    (Next.js for admin interface)
+    │   ├── client/       (Next.js for user interface)
+    │   └── express-api/  (Express API for back-end)
+    ├── package.json      (Monorepo config using npm workspaces)
+    └── tsconfig.json     (Optional: shared TypeScript config)
+    ```
 ## how to setup
     - Create Mern-app/
         - ```npx create-turbo@latest ```
